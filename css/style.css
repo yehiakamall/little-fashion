@@ -1,0 +1,215 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: monospace  ;
+}
+nav{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+nav p{
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+nav p span{
+    color: #e36f4d;
+}
+.links a{
+    text-decoration: none;
+    margin-right:20px ;
+    color: #959595;
+    font-size: larger;
+}
+.links a:hover{
+    color: #e36f4d;
+}
+.icon{
+    color: #959595;
+    padding-right: 50px;
+}
+header{
+    
+    background-image:linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url(../img/medium-shot-business-women-high-five.jpeg);
+    height: 650px;
+    background-position: top;
+    background-size:contain ;
+    margin-top:15px;
+    
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: aliceblue;
+    padding-left: 50px;
+}
+header h2{
+    font-size: 50px;
+    font-weight: 900;
+    font-family:monospace ;
+    padding-bottom: 20px;
+    text-transform: capitalize;
+}
+header p{
+    font-size: 20px;
+    color: #fcf8f8a5;
+    text-transform: capitalize;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+header button{
+    width: 250px;
+    padding: 12px;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 20px;
+    background-color: black;
+    color: #fff;
+    font-weight: 600;
+}
+header button:hover{
+    opacity: 0.5;
+    cursor:  pointer;
+}
+.little{
+    text-align: center;
+    margin-top: 70px;
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+.little span{
+    color: #ff4400;
+}
+.parent{
+    display: flex;
+    flex-direction:  row;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+.parent img{
+    width: 500px;
+    margin-right: 50px;
+}
+.design-2 h3{
+    font-size: 30px;
+    font-weight: 900;
+}
+.design-2 h3 span{
+    color: #ff4400;
+}
+.parent p{
+    font-size: 20px;
+    color: #717275;
+}
+section{
+    display: flex;
+    
+}
+section img{
+    width: 50%;
+}
+section .retail{
+    background-color: #f0f8ff;
+    width: 50%;
+}
+section .retail{
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding-left: 70px;
+}
+section .retail h3{
+    font-size: 40px;
+    font-weight: 900;
+}
+section .retail h3 span{
+    color: #ff4400;
+}
+section .retail p{
+    font-size: 20px;
+    color: #717275;
+}
+.Featured{
+    font-size: 60px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-weight: 900;
+}
+.product{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-left: 150px;
+    margin-bottom: 300px;
+}
+.product .img-1 img{
+    width:350px;
+    
+}
+.product .img-1 h3{
+    font-size: 20px;
+    margin-top: 30px;
+}
+.product .img-1 p{
+    font-size: 15px;
+    color:  #717275;
+}
+.product .img-2 img{
+    width:350px;
+    
+}
+.product .img-2 h3{
+    font-size: 20px;
+    margin-top: 30px;
+}
+.product .img-2 p{
+    font-size: 15px;
+    color:  #717275;
+}
+
+.product .img-3 img{
+    width:350px;
+    
+}
+.product .img-3 h3{
+    font-size: 20px;
+    margin-top: 30px;
+}
+.product .img-3 p{
+    font-size: 15px;
+    color:  #717275;
+}
+footer{
+    height: 400px;
+    background-color: #000000;
+    color: #f0f8ff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer div h3{
+    margin-bottom: 70px;
+    font-size: 30px;
+}
+footer div p{
+    font-size: 15px;
+    color: #6c757d;
+}
+footer div a{
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #6c757d;
+}
+footer div a:hover{
+    color: #f0f8ff;
+}
